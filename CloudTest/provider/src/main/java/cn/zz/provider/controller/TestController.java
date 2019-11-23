@@ -1,6 +1,7 @@
 package cn.zz.provider.controller;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
@@ -15,6 +16,7 @@ public class TestController {
     private String port;
 
     // 做一个业务测试
+    @RequestMapping("/find")
     public List<String> findAll(){
         List<String> name = new ArrayList<>();
         name.add("王璐");
