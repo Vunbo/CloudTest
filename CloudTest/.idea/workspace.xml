@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f2442cb-3e46-47a5-b027-46e9c790c82a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/src/main/java/cn/zz/feign/service/TestHystrixService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hystrix/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hystrix/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hystrix/src/main/java/cn/zz/hystrix/HystrixApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hystrix/src/main/java/cn/zz/hystrix/HystrixApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/feign/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign/src/main/java/cn/zz/feign/FeignApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign/src/main/java/cn/zz/feign/FeignApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign/src/main/java/cn/zz/feign/controller/FeignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign/src/main/java/cn/zz/feign/controller/FeignController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign/src/main/java/cn/zz/feign/service/TestFeignService.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign/src/main/java/cn/zz/feign/service/TestFeignService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/feign/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +104,7 @@
     </option>
     <option name="contentProportion" value="0.12568305" />
   </component>
-  <component name="RunManager" selected="Spring Boot.FeignApplication">
+  <component name="RunManager" selected="Spring Boot.ProviderApplication">
     <configuration name="ComsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="comsumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zz.comsumer.ComsumerApplication" />
@@ -112,13 +115,6 @@
     <configuration name="FeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="feign" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zz.feign.FeignApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HystrixApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="hystrix" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zz.hystrix.HystrixApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,6 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ComsumerApplication" />
+      <item itemvalue="Spring Boot.FeignApplication" />
+      <item itemvalue="Spring Boot.ProviderApplication" />
+      <item itemvalue="Spring Boot.ServiceApplication" />
+    </list>
   </component>
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
@@ -166,7 +168,7 @@
       <workItem from="1574567362134" duration="316000" />
       <workItem from="1574567723640" duration="228000" />
       <workItem from="1574568257231" duration="3007000" />
-      <workItem from="1574571292977" duration="2133000" />
+      <workItem from="1574571292977" duration="5660000" />
     </task>
     <task id="LOCAL-00001" summary="创建一个Cloud项目">
       <created>1574495811213</created>
@@ -238,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574567672188</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="删除hystrix模块，hystrix应该放在消费者里">
+      <created>1574574604959</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1574574604959</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +289,8 @@
     <MESSAGE value="新增一个feign模块" />
     <MESSAGE value="修改feign模块中的service接口&#10;将其中的@RequestMapping与provider中接口相对应" />
     <MESSAGE value="新增一个hystrix模块（断路器/熔断器）" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增一个hystrix模块（断路器/熔断器）" />
+    <MESSAGE value="删除hystrix模块，hystrix应该放在消费者里" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除hystrix模块，hystrix应该放在消费者里" />
   </component>
   <component name="masterDetails">
     <states>

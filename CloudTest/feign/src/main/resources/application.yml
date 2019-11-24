@@ -9,3 +9,8 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8888/eureka
+
+# 打开断路器配置
+feign:
+  hystrix:
+    enabled: true

@@ -1,15 +1,16 @@
 package cn.zz.feign.controller;
 
 import cn.zz.feign.service.TestFeignService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.annotation.Resource;
 import java.util.List;
 
 @RestController
 public class FeignController {
-    @Autowired
+
+    @Resource
     private TestFeignService testFeignService;
 
     @RequestMapping("/getAll")
