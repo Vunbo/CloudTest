@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f2442cb-3e46-47a5-b027-46e9c790c82a" name="Default Changelist" comment="" />
+    <list default="true" id="8f2442cb-3e46-47a5-b027-46e9c790c82a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hystrix/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hystrix/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hystrix/src/main/java/cn/zz/hystrix/HystrixApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hystrix/src/main/java/cn/zz/hystrix/HystrixApplication.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +49,8 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -52,6 +59,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -64,10 +72,11 @@
     <property name="node.js.selected.package.jscs" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -129,6 +138,16 @@
       </method>
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -144,7 +163,10 @@
       <workItem from="1574565711758" duration="967000" />
       <workItem from="1574566720023" duration="297000" />
       <workItem from="1574567092548" duration="56000" />
-      <workItem from="1574567362134" duration="284000" />
+      <workItem from="1574567362134" duration="316000" />
+      <workItem from="1574567723640" duration="228000" />
+      <workItem from="1574568257231" duration="3007000" />
+      <workItem from="1574571292977" duration="2133000" />
     </task>
     <task id="LOCAL-00001" summary="创建一个Cloud项目">
       <created>1574495811213</created>
@@ -209,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574567569567</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="新增一个hystrix模块（断路器/熔断器）">
+      <created>1574567672188</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1574567672188</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,6 +272,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="创建一个Cloud项目" />
     <MESSAGE value="创建一个service模块" />
     <MESSAGE value="新增一个provider模块" />
