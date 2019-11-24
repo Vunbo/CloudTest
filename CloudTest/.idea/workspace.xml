@@ -1,39 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f2442cb-3e46-47a5-b027-46e9c790c82a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/provider2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider2/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider2/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider2/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider2/src/main/java/cn/zz/provider2/Provider2Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider2/src/main/java/cn/zz/provider2/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider2/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider2/src/test/java/cn/zz/provider2/Provider2ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/src/main/java/cn/zz/zuul/ZuulApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/src/main/java/cn/zz/zuul/filter/Myfilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/src/test/java/cn/zz/zuul/ZuulApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comsumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/comsumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign/src/main/java/cn/zz/feign/controller/FeignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign/src/main/java/cn/zz/feign/controller/FeignController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign/src/main/java/cn/zz/feign/service/TestFeignService.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign/src/main/java/cn/zz/feign/service/TestFeignService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign/src/main/java/cn/zz/feign/service/TestHystrixService.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign/src/main/java/cn/zz/feign/service/TestHystrixService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/src/main/java/cn/zz/provider/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/cn/zz/provider/controller/TestController.java" afterDir="false" />
-    </list>
+    <list default="true" id="8f2442cb-3e46-47a5-b027-46e9c790c82a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +192,7 @@
       <workItem from="1574567362134" duration="316000" />
       <workItem from="1574567723640" duration="228000" />
       <workItem from="1574568257231" duration="3007000" />
-      <workItem from="1574571292977" duration="26675000" />
+      <workItem from="1574571292977" duration="27254000" />
     </task>
     <task id="LOCAL-00001" summary="创建一个Cloud项目">
       <created>1574495811213</created>
@@ -310,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574578710549</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="添加zuul路由网关服务，并进行拦截处理有以下要点需注意&#10;一、zuul模块中filter类需要继承ZuulFilter类&#10;二、自定义的filter类需要添加@component注（自动注入）解&#10;三、zuul模块中配置文件中routes:属性下serviceId:是消费者在Eureka注册中心中的id&#10;四、多创建几个消息提供者，可测试使用负载均衡中的轮询法">
+      <created>1574603779320</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1574603779320</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,7 +329,8 @@
     <MESSAGE value="新增一个hystrix模块（断路器/熔断器）" />
     <MESSAGE value="删除hystrix模块，hystrix应该放在消费者里" />
     <MESSAGE value="feign中添加hystrix断路器" />
-    <option name="LAST_COMMIT_MESSAGE" value="feign中添加hystrix断路器" />
+    <MESSAGE value="添加zuul路由网关服务，并进行拦截处理有以下要点需注意&#10;一、zuul模块中filter类需要继承ZuulFilter类&#10;二、自定义的filter类需要添加@component注（自动注入）解&#10;三、zuul模块中配置文件中routes:属性下serviceId:是消费者在Eureka注册中心中的id&#10;四、多创建几个消息提供者，可测试使用负载均衡中的轮询法" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加zuul路由网关服务，并进行拦截处理有以下要点需注意&#10;一、zuul模块中filter类需要继承ZuulFilter类&#10;二、自定义的filter类需要添加@component注（自动注入）解&#10;三、zuul模块中配置文件中routes:属性下serviceId:是消费者在Eureka注册中心中的id&#10;四、多创建几个消息提供者，可测试使用负载均衡中的轮询法" />
   </component>
   <component name="masterDetails">
     <states>
