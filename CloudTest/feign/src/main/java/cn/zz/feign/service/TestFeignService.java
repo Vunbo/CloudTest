@@ -7,7 +7,7 @@ import java.util.List;
 
 @FeignClient("EUREKA-PROVIDER") // 跳转到EUREKA-PROVIDER寻找请求
 public interface TestFeignService {
-    @RequestMapping("/findAll")
+    @RequestMapping("/find")
     public List<String> getAll();
 
 }
