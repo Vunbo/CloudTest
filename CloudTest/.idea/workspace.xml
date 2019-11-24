@@ -2,13 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f2442cb-3e46-47a5-b027-46e9c790c82a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/feign/src/main/java/cn/zz/feign/service/TestHystrixService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider2/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider2/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider2/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider2/src/main/java/cn/zz/provider2/Provider2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider2/src/main/java/cn/zz/provider2/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider2/src/test/java/cn/zz/provider2/Provider2ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/src/main/java/cn/zz/zuul/ZuulApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/src/main/java/cn/zz/zuul/filter/Myfilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/src/test/java/cn/zz/zuul/ZuulApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/feign/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign/src/main/java/cn/zz/feign/FeignApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign/src/main/java/cn/zz/feign/FeignApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/comsumer/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/feign/src/main/java/cn/zz/feign/controller/FeignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign/src/main/java/cn/zz/feign/controller/FeignController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/feign/src/main/java/cn/zz/feign/service/TestFeignService.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign/src/main/java/cn/zz/feign/service/TestFeignService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/feign/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign/src/main/java/cn/zz/feign/service/TestHystrixService.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign/src/main/java/cn/zz/feign/service/TestHystrixService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/java/cn/zz/provider/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/cn/zz/provider/controller/TestController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +91,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="D:/Git/bin/git.exe" />
@@ -79,9 +104,13 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.zz.provider2.controller" />
+      <recent name="cn.zz.provider2" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\clode项目\CloudTest\service\src\main\resources" />
     </key>
@@ -104,7 +133,7 @@
     </option>
     <option name="contentProportion" value="0.12568305" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ProviderApplication">
+  <component name="RunManager" selected="Spring Boot.ZuulApplication">
     <configuration name="ComsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="comsumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zz.comsumer.ComsumerApplication" />
@@ -115,6 +144,13 @@
     <configuration name="FeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="feign" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zz.feign.FeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Provider2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="provider2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zz.provider2.Provider2Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,18 +169,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zz.zuul.ZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.ComsumerApplication" />
       <item itemvalue="Spring Boot.FeignApplication" />
       <item itemvalue="Spring Boot.ProviderApplication" />
       <item itemvalue="Spring Boot.ServiceApplication" />
+      <item itemvalue="Spring Boot.ZuulApplication" />
+      <item itemvalue="Spring Boot.Provider2Application" />
     </list>
   </component>
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
+        <option name="contentProportion" value="0.17704917" />
         <treeState>
-          <expand />
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@7da240a2" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@7da240a2" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3dd3ddea" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
           <select />
         </treeState>
       </serviceView>
@@ -168,7 +224,7 @@
       <workItem from="1574567362134" duration="316000" />
       <workItem from="1574567723640" duration="228000" />
       <workItem from="1574568257231" duration="3007000" />
-      <workItem from="1574571292977" duration="5660000" />
+      <workItem from="1574571292977" duration="26675000" />
     </task>
     <task id="LOCAL-00001" summary="创建一个Cloud项目">
       <created>1574495811213</created>
@@ -247,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574574604959</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="feign中添加hystrix断路器">
+      <created>1574578710549</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1574578710549</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +353,8 @@
     <MESSAGE value="修改feign模块中的service接口&#10;将其中的@RequestMapping与provider中接口相对应" />
     <MESSAGE value="新增一个hystrix模块（断路器/熔断器）" />
     <MESSAGE value="删除hystrix模块，hystrix应该放在消费者里" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除hystrix模块，hystrix应该放在消费者里" />
+    <MESSAGE value="feign中添加hystrix断路器" />
+    <option name="LAST_COMMIT_MESSAGE" value="feign中添加hystrix断路器" />
   </component>
   <component name="masterDetails">
     <states>

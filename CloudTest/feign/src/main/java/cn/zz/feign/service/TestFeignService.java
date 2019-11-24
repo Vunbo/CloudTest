@@ -2,6 +2,7 @@ package cn.zz.feign.service;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 
@@ -12,5 +13,8 @@ public interface TestFeignService {
 
     @RequestMapping("/find")    // 此处的值要与provider中接口一致
     public List<String> getAll();
+
+    @RequestMapping("/findByName")
+    public List<String> getByName(@RequestParam("name") String name);
 
 }

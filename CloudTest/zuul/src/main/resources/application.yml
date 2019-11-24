@@ -1,0 +1,23 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name: eureka-zuul
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka
+
+# 设置路由网管跳转路径
+zuul:
+  routes:
+    provider-1: #自定义名称
+      # 跳转路径
+      path: /pro1/**
+      # 服务器名
+      serviceId: EUREKA-FEIGN
+    provider-2: #自定义名称
+      path: /pro2/**
+      serviceId: EUREKA-COMSUMER

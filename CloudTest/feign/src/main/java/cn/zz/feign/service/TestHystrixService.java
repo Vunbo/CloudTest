@@ -16,4 +16,11 @@ public class TestHystrixService implements TestFeignService{
         msg.add("对不起,服务器异常");
         return msg;
     }
+
+    @Override
+    public List<String> getByName(String name) {
+        List<String> msg = new ArrayList<>();
+        msg.add("对不起,服务器异常");
+        return msg;
+    }
 }
